@@ -21,7 +21,12 @@
                 <ul class="dropdown-menu">
                     <li><a class="nav-link" href="{{route('admin.slider.index')}}">Slider</a></li>   
                 </ul>
-               
+
+                
+                {{-- <li><a class="nav-link" href="layout-default.html">Default Layout</a></li>
+                    <li><a class="nav-link" href="layout-transparent.html">Transparent Sidebar</a></li>
+                    <li><a class="nav-link" href="layout-top-navigation.html">Top Navigation</a></li> --}} 
+                                   
                 
             </li>
             <!-- <li><a class="nav-link" href="blank.html"><i class="far fa-square"></i> <span>Blank Page</span></a></li>  -->
