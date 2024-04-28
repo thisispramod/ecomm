@@ -121,7 +121,7 @@
                 <i class="fas fa-bell"></i>
                 </div>
                 <div class="dropdown-item-desc">
-                Welcome to Stisla template!
+                Welcome to Todospecial YT template!
                 <div class="time">Yesterday</div>
                 </div>
             </a>
@@ -133,7 +133,7 @@
         </li>
         <li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
         <img alt="image" src="{{asset('backend/assets/img/avatar/avatar-1.png')}}" class="rounded-circle mr-1">
-        <div class="d-sm-none d-lg-inline-block">Hi, Ujang Maman</div></a>
+        <div class="d-sm-none d-lg-inline-block">Todospecial YT</div></a>
         <div class="dropdown-menu dropdown-menu-right">
             <div class="dropdown-title">Logged in 5 min ago</div>
             <a href="{{route('admin.profile')}}" class="dropdown-item has-icon">
