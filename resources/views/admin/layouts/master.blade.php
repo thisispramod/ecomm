@@ -143,8 +143,12 @@
                                   icon: "success"
                               });
                               window.location.reload();
-                            } else {
-                                console.log("Unknown status or status not equal to 'success'");
+                            } else if(data.status == 'error') {
+                                Swal.fire( 
+                                  'cant delete',
+                                  data.message,
+                                  'error'
+                                );
                             }
                         },
                         error: function(xhr, status, error){
